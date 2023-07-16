@@ -1,0 +1,229 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5rem;
+}
+.grid1 {
+  padding: 2rem;
+}
+
+.gridbox {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  padding: 3rem;
+  height: 100%;
+}
+
+.mar {
+  padding: 2rem;
+  border: 2px dashed rgb(162, 162, 162);
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.hiddenFileInput > input {
+  height: 100%;
+  width: 100;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.hiddenFileInput {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  overflow: hidden;
+  background: center center no-repeat;
+  background-size: 75% 75%;
+  background-image: url("/pdf.png");
+}
+
+.grid2 {
+  padding: 2rem;
+}
+
+.gridboxx {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  padding: 3rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.btn {
+  background-color: #278bff;
+  max-width: 7rem;
+  text-align: center;
+  outline: none;
+  font-family: gtw;
+  font-size: 1rem;
+  padding: 0.6rem;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+
+.gridboxx input {
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  outline: none;
+  padding: 0.3rem;
+  height: 2rem;
+  font-family: gtw;
+}
+
+.select {
+  font-family: gtw;
+  padding: 5px;
+  outline: none;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+}
+.select option {
+  font-family: gtw;
+  padding: 5px;
+  outline: none;
+  border: 1px solid #d1d1d1;
+}
+
+.gapinp {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.martxt {
+  padding: 2rem;
+
+}
+.formbx{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.txtimgh{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: .5rem;
+  background-color: #E6E6E6;
+  justify-content: center;
+  border-radius: 5px;
+}
+.txtimgh img{
+  width: 2rem;
+}
+
+
+.martk{
+  padding: 3rem 3rem 3rem 3rem;
+}
+.textarea {
+  width: 100%;
+  height:100%;
+  padding: 2px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+.point{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1400px) {
+  .container {
+    grid-template-columns: 1fr;
+    margin-top: 0px;
+  }
+  .grid1 {
+    padding: 1rem;
+  }
+  .gridbox {
+    padding: 2rem;
+  }
+  .grid2 {
+    padding: 1rem;
+  }
+  .gridboxx {
+    align-items: center;
+    padding: 2rem;
+  }
+  .mar {
+    padding: 1.5rem;
+  }
+  .hiddenFileInput {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .gridbox {
+    padding: 1.5rem;
+  }
+
+  .gridboxx {
+    padding: 1.5rem;
+  }
+  .mar {
+    padding: 1.5rem;
+  }
+  .hiddenFileInput {
+    width: 80px;
+    height: 80px;
+  }
+  .container {
+    gap: 2rem;
+  }
+  .grid1 {
+    padding: 0rem;
+  }
+  .grid2 {
+    padding: 0rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .gapinp {
+    flex-direction: column;
+  }
+
+  .mar {
+    gap: 0.6rem;
+    text-align: center;
+  }
+  .hiddenFileInput {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .gridbox {
+    font-size: 0.9rem;
+  }
+
+  .gridboxx {
+    font-size: 0.9rem;
+  }
+  .mar {
+    gap: 0.5rem;
+  }
+  .hiddenFileInput {
+    width: 50px;
+    height: 50px;
+  }
+}

@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 0 2rem 0 2rem;
+  font-family: gtw;
+  padding: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+.container {
+  margin: 0 auto 0 auto;
+  max-width: 1250px;
+}
+
+.bg {
+  /* background-color: #ddefe9; */
+  padding-top: 1rem;
+  height: 100vh;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 1rem;
+  font-size: 2.5rem;
+}
+
+.nam {
+  display: flex;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.logo img {
+  max-width: 3rem;
+}
+
+.login {
+  padding: 1rem;
+  background-color: #8ab953;
+  border-radius: 20px;
+  font-size: 1.2rem;
+}
+
+.grid {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: grid;
+  align-items: center;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  margin-top: 4rem;
+  border-radius: 10px;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.grid1 {
+  padding: 1rem;
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.gridtxt {
+  font-size: 1rem;
+}
+
+.txtchng {
+  font-size: 3rem;
+  font-family: gtw;
+  font-weight: 500;
+  text-align: left;
+}
+
+.gridtxt {
+  font-size: 1.2rem;
+  text-align: left;
+}
+/* 
+.big {
+  background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+} */
+
+.grid2 {
+  align-items: center;
+  display: flex;
+}
+
+@media screen and (max-width: 900px) {
+  .logo {
+    gap: 0.5rem;
+    font-size: 2rem;
+  }
+  .logo img {
+    max-width: 2.5rem;
+  }
+  .login {
+    padding: 0.8rem;
+    background-color: #8ab953;
+    border-radius: 10px;
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .logo {
+    font-size: 1.2rem;
+  }
+  .logo img {
+    max-width: 2.1rem;
+  }
+  .login {
+    padding: 0.7rem;
+    background-color: #8ab953;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
+  .nav {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .logo {
+    font-size: 1rem;
+  }
+  .logo img {
+    max-width: 2rem;
+  }
+  .login {
+    padding: 0.6rem;
+    font-size: 0.8rem;
+  }
+  .nav {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .txtchng {
+    text-align: center;
+  }
+  .big {
+    justify-content: center;
+  }
+  .grid2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .gridtxt {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+}
+
+.bugs {
+  font-family: gwt;
+  margin-top: 20vh;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.gridtxt {
+  margin-top: 2rem;
+}
+@media screen and (max-width: 790px) {
+  .grid2 img {
+    width: 35rem;
+  }
+
+  .grid {
+    gap: 2.5rem;
+  }
+  .gridtxt {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .grid2 img {
+    width: 30rem;
+  }
+
+  .txtchng {
+    font-size: 2.5rem;
+    font-weight: 400;
+  }
+  .gridtxt {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .grid {
+    padding: 0px;
+  }
+  .grid1 {
+    gap: 3rem;
+  }
+  .grid2 img {
+    width: 27rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .grid2 img {
+    width: 23rem;
+  }
+  .grid1 {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .grid2 img {
+    width: 20rem;
+  }
+  .txtchng {
+    font-size: 2.1rem;
+  }
+  .gridtxt {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .grid2 img {
+    width: 18rem;
+  }
+  .txtchng {
+    font-size: 2rem;
+  }
+  .gridtxt {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .grid2 img {
+    width: 16rem;
+  }
+  .txtchng {
+    font-size: 2rem;
+  }
+  .gridtxt {
+    font-size: 1rem;
+  }
+}
+
+.lod {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+}
+
+.lods {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: gtw;
+}

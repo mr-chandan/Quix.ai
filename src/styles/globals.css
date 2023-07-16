@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "gtw";
+  src: url("/GTWalsheimPro-Medium.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "met";
+  src: url("/MonumentExtended-Regular.otf") format("opentype");
+}
